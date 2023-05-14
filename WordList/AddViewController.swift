@@ -32,9 +32,6 @@ class AddViewController: UIViewController {
         
             saveDate.set(wordArray, forKey:"WORD")
         
-        wordArray.append(wordDictionary)
-        
-        saveDate.set(wordArray, forKey: "WORD")
         
         
         let alert = UIAlertController(
